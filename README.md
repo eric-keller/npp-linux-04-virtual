@@ -40,4 +40,6 @@ You'll want to repeat that for node2, but the port will likely be different (por
 When you want to stop the VM, you can either run `vagrant suspend` to save the state so you can resume it later with `vagrant up`, or `vagrant halt` to shut the VM down.
 
 
+# License
 
+For all files in this repo, we follow the MIT license. See LICENSE file.
