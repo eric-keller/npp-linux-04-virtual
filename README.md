@@ -4,6 +4,8 @@ This set of demos and lab goes along with the coursera course: `Network Principl
 
 This module focused on network virtualization, with a focus on containers and network namespaces.
 
+NOTE: Mac M1/M2 users should refer to the guidance [here](https://github.com/eric-keller/npp-linux-01-intro/blob/main/mac-arm/README.md)
+
 # Vagrantfile
 
 A Vagrantfile is provided that will create two Ubuntu 22.04 VMs (node1 and node2), and install the needed software on the VM.  node1 and node2 are connected through a private network, with node1 having IP address 192.168.1.100, and node2 having IP address 192.168.1.101.  The interface inside of each VM was enp0s8, but you can check if yours is different by running `ifconfig` or `ip link`.  The scripts in case2-portforwarding assume enp0s8, but you can search and replace if yours is different.
